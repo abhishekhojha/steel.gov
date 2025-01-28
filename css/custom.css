@@ -703,7 +703,7 @@ header.main-header .header-sticky.active{
 
 .main-menu ul ul li .nav-link:hover,
 .main-menu ul ul li .nav-link:focus{
-	color: var(--accent-color);
+	color: var(--white-color);
 	background-color: transparent;
 	padding: 4px 20px 4px 23px !important;
 }
