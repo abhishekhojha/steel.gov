@@ -93,12 +93,15 @@
   display: flex;
   justify-content: space-between;
   gap: 10px;
-  padding: 70px 0;
+  padding: 40px 0;
 }
 .documentations .docIn {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background: aliceblue;
+    padding: 40px;
+    border-radius: 0;
 }
 .documentations .docIn ul li a {
   color: var(--primary-color);
@@ -188,7 +191,7 @@
 .IconWrapper {
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 100px;
     justify-content: center;
 }
 .sliderIcon img{
@@ -196,6 +199,9 @@
 }
 .sliderIcon{
     cursor: pointer;
+}
+.our-team{
+    background-image: url(../images/about-us-bg.svg);
 }
 /* Responsive Design */
 @media (max-width: 768px) {
