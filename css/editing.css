@@ -102,6 +102,7 @@
     background: #f1f1f1;
     padding: 40px;
     border-radius: 0;
+    border-radius: 20px;
 }
 .documentations .docIn ul li a {
   color: var(--primary-color);
