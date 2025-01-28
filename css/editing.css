@@ -203,12 +203,14 @@
 }
 .our-team{
     background-image: url(../images/about-us-bg.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 .mahotsav {
     display: flex;
     align-items: center;
     justify-content: right;
-    padding: 10px;
+    padding: 30px 0;
 }
 /* Responsive Design */
 @media (max-width: 768px) {
