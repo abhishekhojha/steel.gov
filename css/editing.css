@@ -163,8 +163,11 @@
 .menu-item {
   margin: 0 5px;
 }
-.pdfexcel img {
+.fileIcon {
     width: 20px;
+}
+.team-image img{
+    object-position: top;
 }
 /* Responsive Design */
 @media (max-width: 768px) {
