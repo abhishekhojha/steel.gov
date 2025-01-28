@@ -14,7 +14,6 @@
 }
 .testimonial-company-slider {
   padding: 40px 0;
-  background-color: #ffffffc7;
 }
 .tenders {
   width: 50%;
@@ -164,7 +163,9 @@
 .menu-item {
   margin: 0 5px;
 }
-
+.pdfexcel img {
+    width: 20px;
+}
 /* Responsive Design */
 @media (max-width: 768px) {
   .menu {

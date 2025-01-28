@@ -47,7 +47,7 @@
 	--primary-color			: #2c5271;
 	--secondary-color		: #F5F5F5;
 	--text-color			: #81848A;
-	--accent-color			: #FF9900;
+	--accent-color			: #376f9e;
 	--white-color			: #FFFFFF;
 	--divider-color			: #EBEBEB;
 	--dark-divider-color	: #FFFFFF1A;
@@ -860,7 +860,7 @@ header.main-header .header-sticky.active{
 
 
 .hero{
-	padding: 150px 0 0;
+	padding: 650px 0 0;
 	position: relative;
 	background: url('../images/hero-bg.jpg') no-repeat;
 	background-position: center center;
@@ -1943,7 +1943,7 @@ header.main-header .header-sticky.active{
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	padding: 100px 0;
+	padding: 15px;
 }
 
 .our-testimonial-image{
