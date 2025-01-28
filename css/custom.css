@@ -636,7 +636,7 @@ header.main-header .header-sticky.active{
 
 .main-menu ul li .nav-link:hover,
 .main-menu ul li .nav-link:focus{
-	color: var(--accent-color);
+	color: var(--white-color);
 }
 
 .main-menu ul ul{
