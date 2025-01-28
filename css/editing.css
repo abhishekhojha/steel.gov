@@ -204,7 +204,7 @@
 .our-team{
     background-image: url(../images/about-us-bg.svg);
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: bottom left;
 }
 .mahotsav {
     display: flex;
