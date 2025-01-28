@@ -44,7 +44,7 @@
 /************************************/	
 
 :root{
-	--primary-color			: #222222;
+	--primary-color			: #2c5271;
 	--secondary-color		: #F5F5F5;
 	--text-color			: #81848A;
 	--accent-color			: #FF9900;
@@ -608,7 +608,6 @@ header.main-header .header-sticky.active{
 }
 
 .main-menu .nav-menu-wrapper > ul{
-	align-items: center;
 	display: inline-flex;
 }
 
@@ -618,9 +617,9 @@ header.main-header .header-sticky.active{
 }
 
 .main-menu ul li.nav-item .nav-link{
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 500;
-	padding: 10px 20px;
+	padding: 10px;
 	color: var(--white-color);
 	text-transform: capitalize;
 	transition: all 0.3s ease-in-out;
@@ -652,11 +651,10 @@ header.main-header .header-sticky.active{
 	margin: 0;
 	list-style: none;
 	width: 230px;
-	border-radius: 20px;
 	position: absolute;
-	left: 0;
-	top: 100%;
-	background: var(--accent-color);
+	left: -10px;
+	top: calc(100% + 10px);
+	background: #376f9e;
 	text-align: left;
 	transition: all 0.3s ease-in-out;
 }
@@ -708,7 +706,7 @@ header.main-header .header-sticky.active{
 
 .main-menu ul ul li .nav-link:hover,
 .main-menu ul ul li .nav-link:focus{
-	color: var(--primary-color);
+	color: var(--accent-color);
 	background-color: transparent;
 	padding: 4px 20px 4px 23px !important;
 }
@@ -862,7 +860,7 @@ header.main-header .header-sticky.active{
 
 
 .hero{
-	padding: 150px 0 40px;
+	padding: 150px 0 0;
 	position: relative;
 	background: url('../images/hero-bg.jpg') no-repeat;
 	background-position: center center;
@@ -1230,7 +1228,9 @@ header.main-header .header-sticky.active{
 .service-body{
 	margin-bottom: 60px;
 }
-
+.sliderIcon .service-body{
+	margin-bottom: 0;
+}
 .service-body h3{
 	font-size: 20px;
 	font-weight: 600;
@@ -2072,11 +2072,6 @@ header.main-header .header-sticky.active{
 	color: var(--primary-color);
 }
 
-.testimonial-company-slider{
-	border-top: 1px solid var(--divider-color);
-	padding-top: 80px;
-	margin-top: 80px;
-}
 
 .testimonial-company-slider .company-logo{
 	text-align: center;
@@ -2798,9 +2793,9 @@ header.main-header .header-sticky.active{
 	transition: all 0.5s ease-in-out;
 }
 
-.team-member-item:hover .team-image img{
+/* .team-member-item:hover .team-image img{
     transform: scale(1.1);
-}
+} */
 
 .team-social-icon{
 	position: absolute;
@@ -4753,7 +4748,7 @@ header.main-header .header-sticky.active{
 	}
 
 	.hero{
-		padding: 80px 0 40px;
+		padding: 80px 0 0;
 	}
 
 	.hero.hero-slider-layout .hero-slide{

@@ -7,3 +7,48 @@
 .tenders{
     padding: 20px 0;
 }
+.sliderIcon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.testimonial-company-slider{
+    padding: 40px 0;
+    background-color: #ffffffc7;
+}
+.tenders{
+    width: 50%;
+}
+.upperheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #cecece;
+}
+
+.upperheader div {
+    display: flex;
+    align-items: center;
+}
+.upperheader div h3 {
+    font-size: 12px;
+    font-weight: 600;
+}
+.borderLeft {
+    border-left: 1px solid #cecece;
+}
+.padding1020{
+    padding: 10px 20px;
+}
+@media only screen and (max-width: 991px){
+    .padding1020{
+        padding: 10px 5px;
+    }
+    .upperheader div h3 {
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .tenders{
+        width: 100%;
+    }
+}
