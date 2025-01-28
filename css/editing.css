@@ -5,12 +5,20 @@
   height: 70px;
 }
 .tenders {
-  padding: 20px 0;
+  padding: 40px;
+  border-radius: 20px;
+  background-color: #f1f1f1;
+}
+.tenders .post-entry{
+    border: none;
+    padding: 0;
+    margin: 0;
 }
 .sliderIcon {
   display: flex;
   align-items: center;
   gap: 10px;
+  flex-direction: column;
 }
 .testimonial-company-slider {
   padding: 40px 0;
@@ -168,6 +176,18 @@
 }
 .team-image img{
     object-position: top;
+}
+.IconWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+.sliderIcon img{
+    height: 20px;
+}
+.sliderIcon{
+    cursor: pointer;
 }
 /* Responsive Design */
 @media (max-width: 768px) {
