@@ -2179,7 +2179,6 @@ header.main-header .header-sticky.active{
     background-repeat: no-repeat;
     background-position: bottom left;
     background-size: auto;
-	padding: 100px 0 0;
 }
 
 .footer-header{
@@ -2303,8 +2302,7 @@ header.main-header .header-sticky.active{
 .footer-copyright{
 	text-align: center;
 	border-top: 1px solid var(--dark-divider-color);
-	padding: 60px 0;
-	margin-top: 60px;
+	padding: 30px 0;
 }
 
 .footer-copyright-text p{
@@ -5129,7 +5127,6 @@ header.main-header .header-sticky.active{
 
 	.main-footer{
 		background-size: 50% auto;
-		padding: 50px 0 0;
 	}
 
 	.footer-header{
