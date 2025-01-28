@@ -31,7 +31,9 @@
 .upperheader > .container > div > div {
   display: flex;
   align-items: center;
-  padding-right: 10px;
+}
+.upperheader > .container > div > div >h3{
+    padding: 10px;
 }
 .upperheader div h3 {
   font-size: 12px;
